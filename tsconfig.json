@@ -1,0 +1,63 @@
+//{
+//  "compilerOptions": {
+//    /* Visit https://aka.ms/tsconfig to read more about this file */
+//    /* Language and Environment */
+//    "target": "ES6", /* Define o nível de JavaScript emitido (ES6 ou posterior) */
+//    "lib": [
+//      "ESNext",
+//      "DOM"
+//    ], /* Bibliotecas necessárias para o ambiente do navegador e ECMAScript */
+//    "jsx": "react-jsx", /* Ativa o suporte a JSX com a nova transformação do React (para React 17 e posterior) */
+//    /* Modules */
+//    "module": "NodeNext", /* Especifica o formato de módulo, usado quando se trabalha com Node.js e módulos ES */
+//    "moduleResolution": "NodeNext", /* A resolução de módulos segue a estratégia do Node.js */
+//    /* Emit */
+//    "sourceMap": true, /* Gera mapas de fonte para depuração */
+//    "outDir": "./dist", /* Diretório de saída para os arquivos compilados */
+//    "rootDir": "./src", /* Diretório raiz dos arquivos fontes */
+//    "removeComments": true, /* Remove comentários dos arquivos gerados */
+//    /* Interop Constraints */
+//    "esModuleInterop": true, /* Permite a importação de módulos CommonJS */
+//    "forceConsistentCasingInFileNames": true, /* Garante que o nome de arquivos seja consistente em maiúsculas/minúsculas */
+//    /* Type Checking */
+//    "strict": true, /* Ativa todas as verificações estritas */
+//    "skipLibCheck": true, /* Ignora a verificação de arquivos .d.ts, acelerando a compilação */
+//    /* Outros ajustes de compatibilidade */
+//    "noEmitOnError": true, /* Não gera arquivos se houver erros de tipo */
+//    "noUnusedLocals": true, /* Marca variáveis locais não utilizadas como erro */
+//    "noUnusedParameters": true, /* Marca parâmetros de função não utilizados como erro */
+//  },
+//  
+//  /* Inclusão de arquivos */
+//  "include": [
+//    "src/**/*" /* Inclui todos os arquivos dentro da pasta src e suas subpastas */
+//  ]
+//}
+
+{
+  "compilerOptions": {
+    "target": "ES6", /* Define o nível de JavaScript emitido (ES6 ou posterior) */
+    "lib": [
+      "ESNext",
+      "DOM"
+    ], /* Bibliotecas necessárias para o ambiente do navegador e ECMAScript */
+    "jsx": "react-jsx", /* Ativa o suporte a JSX com a nova transformação do React (para React 17 e posterior) */
+    "module": "NodeNext", /* Especifica o formato de módulo, usado quando se trabalha com Node.js e módulos ES */
+    "moduleResolution": "NodeNext", /* A resolução de módulos segue a estratégia do Node.js */
+    "sourceMap": true, /* Gera mapas de fonte para depuração */
+    "outDir": "./dist", /* Diretório de saída para os arquivos compilados */
+    "rootDir": "./src", /* Diretório raiz dos arquivos fontes */
+    "removeComments": true, /* Remove comentários dos arquivos gerados */
+    "esModuleInterop": true, /* Permite a importação de módulos CommonJS */
+    "forceConsistentCasingInFileNames": true, /* Garante que o nome de arquivos seja consistente em maiúsculas/minúsculas */
+    "strict": true, /* Ativa todas as verificações estritas */
+    "skipLibCheck": true, /* Ignora a verificação de arquivos .d.ts, acelerando a compilação */
+    "noEmitOnError": true, /* Não gera arquivos se houver erros de tipo */
+    "noUnusedLocals": true, /* Marca variáveis locais não utilizadas como erro */
+    "noUnusedParameters": true /* Marca parâmetros de função não utilizados como erro */
+  },
+  
+  "include": [
+    "src/**/*" /* Inclui todos os arquivos dentro da pasta src e suas subpastas */
+  ]
+}

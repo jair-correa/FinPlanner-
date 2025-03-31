@@ -1,2 +1,1 @@
-# FinPlanner-
-Intelligent financial planning
+PROTOTYPE
